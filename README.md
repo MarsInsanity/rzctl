@@ -36,7 +36,7 @@ else if (!init())
 ```
 Move mouse left/right by x amount, up/down by y amount
 ```c#
-mouse_move(0, 0, false);
+mouse_move(0, 0, true);
 ```
 Click Mouse Down:
 ```c#
