@@ -1,5 +1,6 @@
 # rzctl
 Compilable version of: https://github.com/Sadmeme/rzctl
+
 ChatGPT was used to rewrite rzctl.h (I don't know C++ yet sorry)
 
 Once compiled, implementation is easy as such:
