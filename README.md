@@ -38,7 +38,11 @@ Move mouse left/right by x amount, up/down by y amount
 ```c#
 mouse_move(0, 0, false);
 ```
-Click Mouse:
+Click Mouse Down:
+```c#
+mouse_click(1);
+```
+Click Mouse Up:
 ```c#
 mouse_click(0);
 ```
