@@ -9,16 +9,16 @@ Once compiled, implementation is easy as such:
 
 2. Put these outside of loading:
 ```c#
-        [DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern bool init();
+[DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
+public static extern bool init();
 ```
 ```c#
-        [DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void mouse_move(int x, int y, bool starting_point);
+[DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
+public static extern void mouse_move(int x, int y, bool starting_point);
 ```
 ```c#
-        [DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void mouse_click(int up_down);
+[DllImport("rzctl.dll", CallingConvention = CallingConvention.Cdecl)]
+public static extern void mouse_click(int up_down);
 ```
 
 3. Call the functions
