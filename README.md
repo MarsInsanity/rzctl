@@ -44,7 +44,7 @@ mouse_click(1);
 ```
 Click Mouse Up:
 ```c#
-mouse_click(0);
+mouse_click(2);
 ```
 
 Hope you enjoy 😊
